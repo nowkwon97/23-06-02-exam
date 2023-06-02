@@ -1,3 +1,4 @@
+// TypeScript와 JSX 문법을 지원하는 로더와 플러그인을 추가
 {
   "presets": [
     "@babel/preset-env",
