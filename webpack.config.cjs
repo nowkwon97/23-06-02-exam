@@ -1,7 +1,10 @@
+#!/usr/bin/env node
+
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  mode: 'development',
   entry: './index.tsx',
   output: {
     path: path.resolve(__dirname, 'dist'),
